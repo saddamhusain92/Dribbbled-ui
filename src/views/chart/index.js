@@ -71,7 +71,16 @@ const ApexChart = ({label}) => {
       // xaxis:{},
       yaxis: {
         title: {
-          text: label
+          text: label,
+          align: 'left',
+    margin: 10,
+    offsetX: 10,
+    offsetY: 0,
+    floating: false,
+    style: {
+      fontSize:  '14px',
+      color:  '#263238'
+    },
         }
       },
       fill: {
